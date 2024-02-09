@@ -1,0 +1,4 @@
+--device DARMP1 "startup_lpc17xx.o" "team_07_b.o" --strict --scatter "KPIT_Project.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\KPIT_Project.map" -o "KPIT_Project.axf"

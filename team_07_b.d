@@ -1,0 +1,9 @@
+team_07_b.o: Team_07_b.c
+team_07_b.o: C:\Keil\ARM\INC\NXP\LPC17xx\LPC17xx.h
+team_07_b.o: C:\Keil\ARM\RV31\INC\core_cm3.h
+team_07_b.o: C:\Keil\ARM\RV31\INC\stdint.h
+team_07_b.o: C:\Keil\ARM\INC\NXP\LPC17xx\system_LPC17xx.h
+team_07_b.o: C:\Keil\ARM\RV31\INC\stdio.h
+team_07_b.o: uart.h
+team_07_b.o: lcd.c
+team_07_b.o: lcd.h

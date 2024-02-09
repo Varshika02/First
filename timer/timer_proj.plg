@@ -1,0 +1,354 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\avikd\Documents\KPIT\KIEL\KPIT_Project\Coding\timer\timer_proj.uvproj
+Project File Date:  02/07/2024
+
+<h2>Output:</h2>
+compiling timer_NVIC_code.c...
+timer_NVIC_code.c(3): error:  #5: cannot open source input file "uart.h": No such file or directory
+timer_NVIC_code.c - 1 Error(s), 0 Warning(s).
+compiling timer_NVIC_code.c...
+uart.h(33): warning:  #223-D: function "delay" declared implicitly
+timer_NVIC_code.c(20): warning:  #223-D: function "delay" declared implicitly
+timer_NVIC_code.c(50): warning:  #223-D: function "delay" declared implicitly
+timer_NVIC_code.c(53): warning:  #1-D: last line of file ends without a newline
+timer_NVIC_code.c - 0 Error(s), 4 Warning(s).
+compiling timer_NVIC_code.c...
+uart.h(33): warning:  #223-D: function "delay" declared implicitly
+lcd.h(15): error:  #159: declaration is incompatible with previous "delay" (declared at line 33 of "uart.h")
+timer_NVIC_code.c(54): warning:  #1-D: last line of file ends without a newline
+timer_NVIC_code.c - 1 Error(s), 2 Warning(s).
+compiling timer_NVIC_code.c...
+timer_NVIC_code.c(54): warning:  #1-D: last line of file ends without a newline
+timer_NVIC_code.c - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling startup_LPC17xx.s...
+compiling lcd.c...
+linking...
+timer_proj.axf: Error: L6200E: Symbol delay multiply defined (by lcd.o and timer_nvic_code.o).
+Target not created
+compiling timer_NVIC_code.c...
+timer_NVIC_code.c(54): warning:  #1-D: last line of file ends without a newline
+timer_NVIC_code.c - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+timer_proj.axf: Error: L6200E: Symbol delay multiply defined (by lcd.o and timer_nvic_code.o).
+Target not created
+compiling timer_NVIC_code.c...
+timer_NVIC_code.c(54): warning:  #1-D: last line of file ends without a newline
+timer_NVIC_code.c - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=840 RO-data=460 RW-data=0 ZI-data=608  
+"timer_proj.axf" - 0 Error(s), 0 Warning(s).
+compiling timer_NVIC_code.c...
+timer_NVIC_code.c(54): warning:  #1-D: last line of file ends without a newline
+timer_NVIC_code.c - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=840 RO-data=460 RW-data=0 ZI-data=608  
+FromELF: creating hex file...
+"timer_proj.axf" - 0 Error(s), 0 Warning(s).
+compiling timer_NVIC_code.c...
+timer_NVIC_code.c(54): warning:  #1-D: last line of file ends without a newline
+timer_NVIC_code.c - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=840 RO-data=460 RW-data=0 ZI-data=608  
+FromELF: creating hex file...
+"timer_proj.axf" - 0 Error(s), 0 Warning(s).
+compiling timer_NVIC_code.c...
+timer_NVIC_code.c(12): warning:  #61-D: integer operation result is out of range
+timer_NVIC_code.c(12): warning:  #68-D: integer conversion resulted in a change of sign
+timer_NVIC_code.c(54): warning:  #1-D: last line of file ends without a newline
+timer_NVIC_code.c - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=840 RO-data=460 RW-data=0 ZI-data=608  
+FromELF: creating hex file...
+"timer_proj.axf" - 0 Error(s), 0 Warning(s).
+compiling timer_NVIC_code.c...
+timer_NVIC_code.c(30): warning:  #61-D: integer operation result is out of range
+timer_NVIC_code.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+timer_NVIC_code.c(82): warning:  #223-D: function "sensors" declared implicitly
+timer_NVIC_code.c(133): error:  #159: declaration is incompatible with previous "sensors" (declared at line 82)
+timer_NVIC_code.c(164): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(175): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(185): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(190): warning:  #1-D: last line of file ends without a newline
+timer_NVIC_code.c - 1 Error(s), 7 Warning(s).
+compiling timer_NVIC_code.c...
+timer_NVIC_code.c(30): warning:  #61-D: integer operation result is out of range
+timer_NVIC_code.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+timer_NVIC_code.c(150): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(161): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(171): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(190): warning:  #1-D: last line of file ends without a newline
+timer_NVIC_code.c - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+linking...
+timer_proj.axf: Error: L6218E: Undefined symbol lcd_cmd_write (referred from timer_nvic_code.o).
+timer_proj.axf: Error: L6218E: Undefined symbol lcd_init (referred from timer_nvic_code.o).
+timer_proj.axf: Error: L6218E: Undefined symbol lcd_str_write (referred from timer_nvic_code.o).
+Target not created
+compiling timer_NVIC_code.c...
+timer_NVIC_code.c(30): warning:  #61-D: integer operation result is out of range
+timer_NVIC_code.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+timer_NVIC_code.c(150): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(161): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(171): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(190): warning:  #1-D: last line of file ends without a newline
+timer_NVIC_code.c - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+linking...
+timer_proj.axf: Error: L6200E: Symbol delay multiply defined (by lcd.o and timer_nvic_code.o).
+Target not created
+compiling timer_NVIC_code.c...
+uart.h(33): warning:  #223-D: function "delay" declared implicitly
+lcd.h(15): error:  #159: declaration is incompatible with previous "delay" (declared at line 33 of "uart.h")
+timer_NVIC_code.c(30): warning:  #61-D: integer operation result is out of range
+timer_NVIC_code.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+timer_NVIC_code.c(150): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(161): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(171): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(190): warning:  #1-D: last line of file ends without a newline
+timer_NVIC_code.c - 1 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling timer_NVIC_code.c...
+uart.h(33): warning:  #223-D: function "delay" declared implicitly
+lcd.h(15): error:  #159: declaration is incompatible with previous "delay" (declared at line 33 of "uart.h")
+timer_NVIC_code.c(30): warning:  #61-D: integer operation result is out of range
+timer_NVIC_code.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+timer_NVIC_code.c(150): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(161): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(171): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(190): warning:  #1-D: last line of file ends without a newline
+Target not created
+compiling timer_NVIC_code.c...
+uart.h(33): warning:  #223-D: function "delay" declared implicitly
+lcd.h(15): error:  #159: declaration is incompatible with previous "delay" (declared at line 33 of "uart.h")
+timer_NVIC_code.c(30): warning:  #61-D: integer operation result is out of range
+timer_NVIC_code.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+timer_NVIC_code.c(150): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(161): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(171): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(190): warning:  #1-D: last line of file ends without a newline
+timer_NVIC_code.c - 1 Error(s), 7 Warning(s).
+compiling timer_NVIC_code.c...
+timer_NVIC_code.c(30): warning:  #61-D: integer operation result is out of range
+timer_NVIC_code.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+timer_NVIC_code.c(38): warning:  #223-D: function "uart_config" declared implicitly
+timer_NVIC_code.c(64): warning:  #223-D: function "uart_str" declared implicitly
+timer_NVIC_code.c(72): warning:  #223-D: function "uart_str" declared implicitly
+timer_NVIC_code.c(137): warning:  #223-D: function "uart_config" declared implicitly
+timer_NVIC_code.c(150): warning:  #223-D: function "uart_str" declared implicitly
+timer_NVIC_code.c(180): warning:  #223-D: function "uart_str" declared implicitly
+timer_NVIC_code.c(190): warning:  #1-D: last line of file ends without a newline
+timer_NVIC_code.c - 0 Error(s), 9 Warning(s).
+compiling timer_NVIC_code.c...
+timer_NVIC_code.c(30): warning:  #61-D: integer operation result is out of range
+timer_NVIC_code.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+timer_NVIC_code.c(150): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(161): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(171): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(190): warning:  #1-D: last line of file ends without a newline
+timer_NVIC_code.c - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=9740 RO-data=408 RW-data=0 ZI-data=608  
+FromELF: creating hex file...
+"timer_proj.axf" - 0 Error(s), 0 Warning(s).
+compiling timer_NVIC_code.c...
+timer_NVIC_code.c(30): warning:  #61-D: integer operation result is out of range
+timer_NVIC_code.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+timer_NVIC_code.c(148): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(159): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(169): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(187): warning:  #1-D: last line of file ends without a newline
+timer_NVIC_code.c - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=9740 RO-data=408 RW-data=0 ZI-data=608  
+FromELF: creating hex file...
+"timer_proj.axf" - 0 Error(s), 0 Warning(s).
+compiling timer_NVIC_code.c...
+timer_NVIC_code.c(30): warning:  #61-D: integer operation result is out of range
+timer_NVIC_code.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+timer_NVIC_code.c(149): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(160): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(170): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(188): warning:  #1-D: last line of file ends without a newline
+timer_NVIC_code.c - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=9740 RO-data=408 RW-data=0 ZI-data=608  
+FromELF: creating hex file...
+"timer_proj.axf" - 0 Error(s), 0 Warning(s).
+compiling timer_NVIC_code.c...
+timer_NVIC_code.c(30): warning:  #61-D: integer operation result is out of range
+timer_NVIC_code.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+timer_NVIC_code.c(146): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(157): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(167): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(185): warning:  #1-D: last line of file ends without a newline
+timer_NVIC_code.c - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=9728 RO-data=408 RW-data=0 ZI-data=608  
+FromELF: creating hex file...
+"timer_proj.axf" - 0 Error(s), 0 Warning(s).
+compiling timer_NVIC_code.c...
+timer_NVIC_code.c(30): warning:  #61-D: integer operation result is out of range
+timer_NVIC_code.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+timer_NVIC_code.c(82): warning:  #223-D: function "sensors" declared implicitly
+timer_NVIC_code.c(133): error:  #159: declaration is incompatible with previous "sensors" (declared at line 82)
+timer_NVIC_code.c(164): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(175): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(185): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(190): warning:  #1-D: last line of file ends without a newline
+timer_NVIC_code.c - 1 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling timer_NVIC_code.c...
+timer_NVIC_code.c(30): warning:  #61-D: integer operation result is out of range
+timer_NVIC_code.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+timer_NVIC_code.c(82): warning:  #223-D: function "sensors" declared implicitly
+timer_NVIC_code.c(133): error:  #159: declaration is incompatible with previous "sensors" (declared at line 82)
+timer_NVIC_code.c(164): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(175): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(185): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(190): warning:  #1-D: last line of file ends without a newline
+Target not created
+compiling timer_NVIC_code.c...
+timer_NVIC_code.c(30): warning:  #61-D: integer operation result is out of range
+timer_NVIC_code.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+timer_NVIC_code.c(82): warning:  #223-D: function "sensors" declared implicitly
+timer_NVIC_code.c(133): error:  #159: declaration is incompatible with previous "sensors" (declared at line 82)
+timer_NVIC_code.c(164): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(175): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(185): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(190): warning:  #1-D: last line of file ends without a newline
+timer_NVIC_code.c - 1 Error(s), 7 Warning(s).
+compiling timer_NVIC_code.c...
+timer_NVIC_code.c(30): warning:  #61-D: integer operation result is out of range
+timer_NVIC_code.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+timer_NVIC_code.c(150): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(161): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(171): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=9740 RO-data=408 RW-data=0 ZI-data=608  
+FromELF: creating hex file...
+"timer_proj.axf" - 0 Error(s), 0 Warning(s).
+compiling timer_NVIC_code.c...
+timer_NVIC_code.c(30): warning:  #61-D: integer operation result is out of range
+timer_NVIC_code.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+timer_NVIC_code.c(148): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(159): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(169): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=9740 RO-data=408 RW-data=0 ZI-data=608  
+FromELF: creating hex file...
+"timer_proj.axf" - 0 Error(s), 0 Warning(s).
+compiling timer_NVIC_code.c...
+timer_NVIC_code.c(30): warning:  #61-D: integer operation result is out of range
+timer_NVIC_code.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+timer_NVIC_code.c(148): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(159): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(169): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=9732 RO-data=408 RW-data=0 ZI-data=608  
+FromELF: creating hex file...
+"timer_proj.axf" - 0 Error(s), 0 Warning(s).
+compiling timer_NVIC_code.c...
+timer_NVIC_code.c(30): warning:  #61-D: integer operation result is out of range
+timer_NVIC_code.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+timer_NVIC_code.c(149): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(160): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(170): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=9740 RO-data=408 RW-data=0 ZI-data=608  
+FromELF: creating hex file...
+"timer_proj.axf" - 0 Error(s), 0 Warning(s).
+compiling timer_NVIC_code.c...
+timer_NVIC_code.c(30): warning:  #61-D: integer operation result is out of range
+timer_NVIC_code.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+timer_NVIC_code.c(149): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(160): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(170): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=9732 RO-data=408 RW-data=0 ZI-data=608  
+FromELF: creating hex file...
+"timer_proj.axf" - 0 Error(s), 0 Warning(s).
+compiling timer_NVIC_code.c...
+timer_NVIC_code.c(30): warning:  #61-D: integer operation result is out of range
+timer_NVIC_code.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+timer_NVIC_code.c(148): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(159): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(169): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=9732 RO-data=408 RW-data=0 ZI-data=608  
+FromELF: creating hex file...
+"timer_proj.axf" - 0 Error(s), 0 Warning(s).
+compiling timer_NVIC_code.c...
+timer_NVIC_code.c(30): warning:  #61-D: integer operation result is out of range
+timer_NVIC_code.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+timer_NVIC_code.c(145): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(156): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(166): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=9720 RO-data=408 RW-data=0 ZI-data=608  
+FromELF: creating hex file...
+"timer_proj.axf" - 0 Error(s), 0 Warning(s).
+compiling timer_NVIC_code.c...
+timer_NVIC_code.c(30): warning:  #61-D: integer operation result is out of range
+timer_NVIC_code.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+timer_NVIC_code.c(145): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(156): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(166): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=9744 RO-data=408 RW-data=0 ZI-data=608  
+FromELF: creating hex file...
+"timer_proj.axf" - 0 Error(s), 0 Warning(s).
+compiling timer_NVIC_code.c...
+timer_NVIC_code.c(30): warning:  #61-D: integer operation result is out of range
+timer_NVIC_code.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+timer_NVIC_code.c(146): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(157): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(167): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=9752 RO-data=408 RW-data=0 ZI-data=608  
+FromELF: creating hex file...
+"timer_proj.axf" - 0 Error(s), 0 Warning(s).
+compiling timer_NVIC_code.c...
+timer_NVIC_code.c(30): warning:  #61-D: integer operation result is out of range
+timer_NVIC_code.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+timer_NVIC_code.c(146): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(157): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c(167): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+timer_NVIC_code.c - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=9744 RO-data=408 RW-data=0 ZI-data=608  
+FromELF: creating hex file...
+"timer_proj.axf" - 0 Error(s), 0 Warning(s).

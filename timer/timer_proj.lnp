@@ -1,0 +1,4 @@
+--device DARMP1 "startup_lpc17xx.o" "timer_nvic_code.o" "lcd.o" --strict --scatter "timer_proj.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\timer_proj.map" -o "timer_proj.axf"
